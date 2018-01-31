@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hawks Workpoint Calculator",
+  "description": "This extension provides tracking of workpoints for Dynamic World Events",
+  "version": "1.1.1",
+  "background": [
+    {
+     "scripts": ["scripts/extras.js"]     
+
+    }
+ ],
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "Resources/HTML/menu.html"
+  },
+  "permissions": [
+    "activeTab",
+     "storage",
+      "tabs",
+     "notifications"
+
+  ]
+}

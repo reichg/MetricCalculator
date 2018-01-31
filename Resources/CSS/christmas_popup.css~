@@ -1,0 +1,281 @@
+@font-face {
+	font-family: christmasfont;
+	font-weight: bold;
+	src: url(../Font/Christbaumkugeln.ttf);
+}
+
+@font-face {
+	font-family: christmasfont2;
+	font-weight: bold;
+	src: url(../Font/PWHappyChristmas.ttf);
+}
+
+@font-face {
+	font-family: christmasfont3;
+	font-weight: bold;
+	src: url(../Font/PWChristmasTinsel.ttf);
+}
+
+body {
+	height: 100%;
+	width: 100%;
+  background: #edeef8;
+  color: #222222;
+  font-family: "Segoe", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  vertical-align: top;
+}
+
+div {
+  margin: 0px;
+  width: 100%;
+}
+
+div.header {
+  color: #FFFFFF;
+  background: #a50101;
+}
+.header p {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.header h1 {
+	font-family: christmasfont3;
+  text-align: center; 
+  font-size: 39px;
+  /*font-weight: bold;*/
+	text-shadow: 2px 4px #09470d;
+  margin: 4px;
+  padding: 8px 10px;
+  padding-bottom: 12px;
+}
+
+.wptotal {
+	font-size: 14px;
+  background: #0a8400;
+	box-shadow: 4px 4px #09470d;
+	width: 20%;
+	font-weight: bold;
+	text-align: center;
+	padding: 8px 4px;
+	margin: 8px;
+}
+
+#totalwp {
+	font-size: 30px;
+}
+
+.mode {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	display: inline;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 25px;
+	margin-bottom: 6px;
+}
+
+.headbtns {
+	padding: 21px 4px;
+	margin-top: 2px;
+	
+}
+
+#clearbtn:active {
+	border-bottom-width: 2px;
+	transform:translateY(2px);
+
+}
+
+#popbtn:active {
+	border-bottom-width: 2px;
+	transform:translateY(2px);
+
+}
+
+.btn:active {
+	border-bottom-width: 2px;
+	transform:translateY(2px);
+
+}
+
+div.header input {
+	margin: 3px;
+
+}
+
+
+div.body {
+  font-size: 14px;
+}
+
+
+select {
+  background: #0a8400;
+  border: 2px solid #323e81;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.14);
+  font-weight: bold;
+ 	/*position: relative;*/
+  color: #FFFFFF;
+  padding: 3px;
+	margin: 10px;
+}
+
+option:hover {
+	background-color: green;
+}
+
+div.header name="resetButton"] {
+	border: none;
+	background-color: #FFFFFF;
+
+
+}
+
+div.header input {
+  background-color: #0a8400;
+  border:  1px solid #323e81;
+  border-radius: 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+div.body input {
+	background-color: #edeef8;
+	border: none;
+	border-radius: 10px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+ 	margin: 1px;
+	padding: 5px;
+	width: 40px;
+
+}
+
+
+div.body input:hover {
+	background-color: #f78f07;
+	
+}
+
+div.body input:active {
+	border-bottom-width: 2px;
+	transform:translateY(2px);
+
+}
+
+div.body table {
+	border: 1px solid #323e81;
+	border-collapse: collapse;
+	background-color: #169e1f;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: 0px;
+	width: 100%;
+
+
+}
+
+.role {
+	margin-top: 5px;
+	border: 2px solid black;
+	padding: 5px;
+	width: 70%;
+
+}
+
+
+tr:hover {
+	background-color: #005105;
+
+}
+th {
+	border: 2px solid black;
+  background-color: #0a8400;
+	padding: 5px;
+}
+
+
+#removeButton {
+	background-color: #891717;
+
+}
+
+#removeButton:hover {
+	background-color: #380a0a;
+	
+}
+
+td {
+	border: 2px solid black;
+	padding: 5px;
+}
+
+
+div.body input[type=checkbox] {
+  width: 1.50em; height: 1.50em;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+div.header input:hover {
+  background-color: #380a0a;
+}
+
+div.body input {
+	background-color: #a50101;
+}
+
+div.body input:hover {
+  background-color: #380a0a;
+}
+
+div.options input {
+	background-color: #a50101;
+	border: solid black 1px;
+  cursor: pointer;
+	color: white;
+	font-weight: bold;
+	box-shadow: 4px 4px #125491;
+	padding: 2px;
+}
+
+div.options {
+	margin-top: 50px;
+}
+
+div.options select {
+  cursor: pointer;
+
+}
+
+
+div.header input[type="button"]:disabled {
+  background-color: #125491;
+  color: #FAFAFA;
+
+  /*cursor: default;*/
+  cursor: not-allowed;
+}

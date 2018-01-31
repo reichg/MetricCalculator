@@ -1,0 +1,76 @@
+<!doctype html>
+
+<!-- Workpoint Calculator      -->
+<!-- version: 1.0.2          -->
+<!-- Last Updated: 09-29-2016  -->
+<!-- By: guyl@/ greichenberger@             -->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=5, minimum-scale=2, width=device-width" name="viewport">
+   <link rel="stylesheet" href="resources/CSS/christmas_menu.css">
+    <script src="scripts/background.js"></script>
+    <title>Hawks Workpoint Calculator</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Hawks Workpoint Calculator</h1>
+		
+
+ <p class="wptotal">Workpoint Total: <tag id="totalwp">0.00</tag></p>
+<p class="mode">I am a:  <tag id="roleRadioModes"> <input type="radio" id="labelMode" name="mode" checked>Labeler <input type="radio" id="qcMode" name="mode">QCer <input type="radio"id="metaQcMode" name="mode">MetaQCer</tag></p>
+<p class="headbtns"><input id="clearbtn" type="button" name="resetButton" value="Clear"><input id="popbtn" type="button" name="popoutButton" value=" ◳ " title="Open In New Window"></p>
+</div>
+
+
+    <div class="body" id="bodytext">
+      <table class="eventdata" id="issuetable">
+          <div>
+       	   <tr>
+            <th><b>Event Type</b></th>
+            <th><b>Workpoints</b></th>
+            <th><b>Labeled</b></th>
+            <th><b>QCed</b></th>
+			<th><b>MetaQCed</b></th>
+            <th><b id="addrem">Add/Subtract</b></th>
+            <th><input class="btn" type="button" id="removeButton" name="remove_button" value="✖" title="Delete Checked Entries"></th>
+	         </tr>
+          </div>
+       </table>
+    </div>
+
+<div class="options">
+  <form>
+<select id="issuetypes">
+  <option value="unselected">Choose Event Type</option>
+<!--Dynamic World-->
+<!--Dayhawks-->
+	<option value="DHResearch">DH Research</option>
+	<option value="Verification">Verification</option>
+  	<option value="DD Venue">DD Venue</option>
+  	<option value="DD Street">DD Street</option>
+	<option value="DD Neighborhood POI">DD Neighborhood POI</option>
+	<option value="DD Neighborhood Polyline">DD Neighborhood Polyline</option>
+	<option value="DD City">DD City</option>
+<!--NightHawks-->
+	<option value="ED Venue">ED Venue</option>	
+	<option value="ED Street">ED Street</option>
+	<option value="ED Neighborhood POI">ED Neighborhood POI</option>
+	<option value="ED Neighborhood Polyline">ED Neighborhood Polyline</option>
+	<option value="ED City">ED City</option>
+	
+	
+</select>
+
+
+
+<input class="btn" id="addevent" type="button" name="addIssue" value="Add Event Type" title="Add Event To Table">
+  </form>
+    </div>
+<br>
+
+                                            
+
+<div align=right style="font-size: 9px;" id="version"></div>
+  </body>
+</html>
